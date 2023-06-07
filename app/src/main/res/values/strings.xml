@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HayataYolverApp</string>
+    <string-array name="usertype"></string-array>
+</resources>

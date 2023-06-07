@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525583509589",
+    "project_id": "hayatayolverapp",
+    "storage_bucket": "hayatayolverapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525583509589:android:9f56d61cccc1a7ffa44cdc",
+        "android_client_info": {
+          "package_name": "com.gaziuni.hayatayolverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525583509589-54n2k6oljgiutjk1tfdis30l8a8uiujm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeDpso3c2subvHkPWw3LuGST7pQQwu2HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525583509589-54n2k6oljgiutjk1tfdis30l8a8uiujm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

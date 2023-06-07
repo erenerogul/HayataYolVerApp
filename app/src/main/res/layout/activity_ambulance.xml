@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="548dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ellipse_1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif"
+        android:text="Hayata Yol Ver"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="297dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ambulancelayer" />
+
+
+    <EditText
+        android:id="@+id/namesurnameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/edttxtbackground"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Ad Soyad"
+        android:paddingLeft="10dp"
+        android:textSize="24sp"
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/plateEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="472dp"
+        android:background="@drawable/edttxtbackground"
+        android:drawableLeft="@drawable/baseline_directions_car_24"
+        android:drawablePadding="10dp"
+        android:hint="Plaka"
+        android:paddingLeft="10dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMapGiris"
+        android:layout_width="142dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@color/yolveryesil"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
